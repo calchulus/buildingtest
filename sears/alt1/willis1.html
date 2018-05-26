@@ -1,0 +1,25 @@
+<!--
+<svg> 
+    <use xlink:href="body/willis-body.svg#body-windows-left"></use>
+</svg>
+-->
+
+<svg viewBox="0 0 400 100">
+    <defs>
+        <rect id="anim-rect"
+            x="-25" y="-25"
+            width="50" height="50"
+            fill="#29e" >
+
+            <animate
+                attributeName="fill"
+                values="#29e; #4e4; #f40; #29e"
+                dur="6s"
+                repeatCount="indefinite" />
+        </rect>
+    </defs>
+
+    <use xlink:href="#anim-rect" transform="translate(100 50)"/>
+    <use xlink:href="#anim-rect" transform="translate(200 50)"/>
+    <use xlink:href="#anim-rect" transform="translate(300 50)"/>
+</svg>
